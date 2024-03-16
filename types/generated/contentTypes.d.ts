@@ -384,6 +384,7 @@ export interface ApiPricePrice extends Schema.CollectionType {
           pattern: 'title';
         }
       >;
+    Benef: Attribute.JSON & Attribute.CustomField<'plugin::tagsinput.tags'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -29,6 +29,10 @@
         "pattern": "title"
       },
       "customField": "plugin::slug.slug"
+    },
+    "Benef": {
+      "type": "customField",
+      "customField": "plugin::tagsinput.tags"
     }
   }
 }
